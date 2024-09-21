@@ -4,8 +4,8 @@ pipeline {
     environment {
         BRANCH_NAME = 'main'
         GIT_URL = 'https://github.com/Pris2024/aws-cicd.git'
-        IMAGE_TAG = 'Pris2024/aws-cicd'
-        IMAGE_VERSION = '${BUILD_NUMBER}'
+        IMAGE_TAG = 'Pris2024/awscicd'
+        IMAGE_VERSION = "${BUILD_NUMBER}"
     }
 
 stages {
